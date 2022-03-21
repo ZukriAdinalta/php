@@ -1,0 +1,19 @@
+{
+  "name": "kuma/belajar-php-composer-hello",
+  "description": "Libary Composer Hello",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Kuma\\BelajarPhpComposerHello\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Zukri Adinalta",
+      "email": "kumabbj@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}

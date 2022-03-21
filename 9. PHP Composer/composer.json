@@ -1,0 +1,19 @@
+{
+  "name": "kuma/belajar-php-composer",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Kuma\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Zukri Adinalta",
+      "email": "kumabbj@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "2.3.5"
+  }
+}
